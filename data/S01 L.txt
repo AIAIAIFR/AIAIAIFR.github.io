@@ -1,17 +1,4 @@
-* Measurement data measured by REW V5.20 Beta 4
-* Source: Microphone (E.A.R.S Gain: 18dB  ), no input selected, L, volume: no control
-* Format: 256k Log Swept Sine, 1 sweep at -9.0 dBFS  With no timing reference
-* Dated: Jan 28, 2019 2:19:56 PM
-* REW Settings:
-*  C-weighting compensation: Off
-*  Target level: 75.0 dB
-* Note: S01 + all ATO earpads; 
-* Measurement: S01+E01 L
-* Smoothing: 1/48 octave
-* Frequency Step: 1/96 octave
-* Start Frequency: 20.1 Hz
-*
-* Freq(Hz) SPL(dB) Phase(degrees)
+Freq(Hz) SPL(dB) Phase(degrees)
 20.145 82.891 146.854
 20.291 82.952 146.695
 20.438 83.014 146.431
