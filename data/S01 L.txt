@@ -1,4 +1,4 @@
-Freq(Hz) SPL(dB) Phase(degrees)
+Frequency	dB	Unweighted
 20.145 107.064 76.040
 20.291 107.103 75.821
 20.438 107.142 75.461
@@ -955,3 +955,12 @@ Freq(Hz) SPL(dB) Phase(degrees)
 19611.715 81.790 -28.074
 19753.830 81.014 -27.147
 19896.975 80.128 -27.213
+
+overall dB	0.0 dB
+decay	Average
+averaging	No Smoothing
+source	Totally Made Up
+
+
+saved	--/-/--, --:-- AM
+peak	0.0Hz
