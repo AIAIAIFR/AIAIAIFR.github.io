@@ -8,7 +8,6 @@ var gr = d3.select("#fr-graph"),
 
 gr.append("rect").attrs({x:0, y:pad.t-8, width:W0, height:H0-22, rx:4,
                          fill:"white"});
-watermark(gr);
 
 
 // Scales
