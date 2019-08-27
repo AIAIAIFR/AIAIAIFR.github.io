@@ -16,12 +16,8 @@ gen =: 3 : 0"1
 
 TEMPLATE =: 0 : 0
 
-Freq(Hz) SPL(dB) Phase(degrees)
+Freq(Hz) SPL(dB)
 
-
-
-saved	--/-/--, --:-- AM
-peak	0.0Hz
 )
 fmtfr =: TEMPLATE rplc 'DATA';LF,@:,.db ([,TAB,])&":"0 ]
 writefr =: ('LR'(],' ',[,'.txt'"_)&.><@[) (1!:2~ fmtfr)"_1 (0.5<.@:+])&.(10&*)@]

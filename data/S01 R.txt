@@ -1,5 +1,5 @@
 
-Frequency	dB	Unweighted
+Freq(Hz) SPL(dB) 
 19.5	58.6 
 19.8	58.7 
 20.1	59.1 
@@ -480,11 +480,4 @@ Frequency	dB	Unweighted
 19102	40  
 19380	41.8
 20000	45.6
-overall dB	0.0 dB
-decay	Average
-averaging	No Smoothing
-source	Totally Made Up
 
-
-saved	--/-/--, --:-- AM
-peak	0.0Hz
