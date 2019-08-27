@@ -16,11 +16,8 @@ gen =: 3 : 0"1
 
 TEMPLATE =: 0 : 0
 
-Frequency	dB	UnweightedDATA
-overall dB	0.0 dB
-decay	Average
-averaging	No Smoothing
-source	Totally Made Up
+Freq(Hz) SPL(dB) Phase(degrees)
+
 
 
 saved	--/-/--, --:-- AM
