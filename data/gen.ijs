@@ -16,8 +16,15 @@ gen =: 3 : 0"1
 
 TEMPLATE =: 0 : 0
 
-Freq(Hz) SPL(dB)
+Frequency	dB	UnweightedDATA
+overall dB	0.0 dB
+decay	Average
+averaging	No Smoothing
+source	Totally Made Up
 
+
+saved	--/-/--, --:-- AM
+peak	0.0Hz
 )
 fmtfr =: TEMPLATE rplc 'DATA';LF,@:,.db ([,TAB,])&":"0 ]
 writefr =: ('LR'(],' ',[,'.txt'"_)&.><@[) (1!:2~ fmtfr)"_1 (0.5<.@:+])&.(10&*)@]
