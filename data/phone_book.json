@@ -1,7 +1,8 @@
 [
   {
     "name":   "AIAIAI",
-    "phones": [ "S01" ]
+    "phones": [ "S01"
+               ,"S02"]
   },
   {
     "name":   "Audio Technica",
