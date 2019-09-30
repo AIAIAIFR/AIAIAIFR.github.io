@@ -669,7 +669,7 @@ d3.json(DIR+"phone_book.json").then(function (brands) {
         .call(setClicks(setBrand));
 
     var bg = (h,fn) => function (p) {
-        d3.select(this).style("background", #303030);
+        d3.select(this).style("background", fn(p));
         (p.objs||[p]).forEach(q=>hl(q,h));
     }
     var phoneSel = d3.select("#phones").selectAll()
