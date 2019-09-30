@@ -7,7 +7,7 @@ var gr = d3.select("#fr-graph"),
 
 
 gr.append("rect").attrs({x:0, y:pad.t-8, width:W0, height:H0-22, rx:4,
-                         fill:"white"});
+                         opacity: 0});
 
 
 // Scales
@@ -36,14 +36,7 @@ function fmtY(ya) {
     yAxis.tickValues(d3.range(y1-y0+1).map(i=>t*(y0+i)))(ya);
     ya.select(".domain").remove();
     ya.selectAll(".tick line")
-      .attr("stroke-linecap", "round")
-      .attrs((_,i) => {
-          var m = isMinor(_,i);
-          return {
-              filter: m ? null : "url(#blur)",
-              "stroke-width": m ? 0.2*(1-r/45) : 0.15*(1+45/r)
-          };
-      });
+      .attr("stroke", "white");
     ya.selectAll(".tick text")
       .attr("text-anchor","start")
       .attr("x",-W+3)
@@ -76,7 +69,7 @@ function fmtX(xa) {
     xAxis(xa);
     (xa.selection ? xa.selection() : xa).select(".domain").remove();
     xa.selectAll(".tick line")
-      .attr("stroke", "#333")
+      .attr("stroke", "white")
       .attr("stroke-width", (_,i) => tickThickness[getTickType(i)]);
     xa.selectAll(".tick text").filter((_,i) => tickPattern[i%8] === 0)
       .attr("font-size","86%")
@@ -102,7 +95,7 @@ defs.selectAll().data([0,1]).join("linearGradient")
     .attr("id", i=>"grad"+i)
     .selectAll().data(i=>[i,1-i]).join("stop")
     .attr("offset",(_,i)=>i)
-    .attr("stop-color",j=>["black","white"][j]);
+    .attr("stop-color",j=>["white","black"][j]);
 var fW = 7,  // Fade width
     fWm= 30; // Width at an interior edge
 var fade = defs.append("mask")

@@ -1,9 +1,13 @@
 [
   {
-    "name":   "AIAIAI",
-    "phones": [ "S01"
-              , "S05"]
+    "name":   "S01",
+    "phones": [ "S01_E01"]
   },
+  {
+    "name":   "S05",
+    "phones": [ "S05_E08"]
+  },
+
   {
     "name":   "Audio Technica",
     "phones": [ "M50x" ]
