@@ -165,7 +165,7 @@ input[type=number] { width:2.3em; border:1px solid #899174; height:1.5em; }
 #norm-phon { width:2.8em; }
 #norm-fr { width:4em; }
 .tools input:invalid { background:#fbb; }
-.normalize div.selected { margin-bottom:-3px; border-bottom:3px solid #21150f; background:#cde4aa; }
+.normalize div.selected { margin-bottom:-3px}
 .normalize div span { cursor:pointer; }
 #expandTools { display:none; height:1.5em; }
 
