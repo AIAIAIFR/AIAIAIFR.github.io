@@ -112,7 +112,8 @@ tr { background:#f9fcfc; }
     border:1px solid #bbb;
 }
 .search,input[type=number] { box-shadow:inset 0 0.1em 0.3em #ccefff; }
-.chevron { height:1.3em; width:0.9em; position:absolute; top:-1.3em; fill:#303030; }
+.chevron { height:1.3em; width:0.9em; position:absolute; top:-1.3em; fill:#1c2126; }
+.stop { height:0.35em; position:absolute; right:0; bottom:0; fill:#1c2126; }
 
 .scroll div { background:white; }
 
