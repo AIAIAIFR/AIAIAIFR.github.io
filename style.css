@@ -94,7 +94,7 @@ td.remove       { width:1.4em; font-size:120%; padding-left:0.08em; }
 
 .pinMark { float:right; width:80%; margin-right:-8.6%; margin-bottom:0.6em; }
 
-tr { background:#303030; }
+tr { background:#f9fcfc; }
 .scrollOuter { flex:1; position:relative; }
 .scroll {
     position:absolute; left:0; right:0; top:0; bottom:0;
