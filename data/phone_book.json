@@ -1,7 +1,13 @@
 [
   {
     "name":   "S01",
-    "phones": [ "S01_E01"]
+    "phones": [ "S01_E01"],
+    "phones": [ "S01_E02"],
+    "phones": [ "S01_E03"],
+    "phones": [ "S01_E04"],
+    "phones": [ "S01_E05"],
+    "phones": [ "S01_E06"],
+    "phones": [ "S01_E08"]
   },
   {
     "name":   "S05",
