@@ -53,5 +53,10 @@
     "name":   "Beats",
     "phones": [ "Solo3"
               ]
+  },
+  {
+    "name":   "Sennheiser",
+    "phones": [ "HD25"
+              ]
   }
 ]
