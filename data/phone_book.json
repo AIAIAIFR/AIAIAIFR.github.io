@@ -55,6 +55,11 @@
               ]
   },
   {
+    "name":   "Audio Technica",
+    "phones": [ "M50x"
+              ]
+  },
+  {
     "name":   "Sennheiser",
     "phones": [ "HD25"
               ]
