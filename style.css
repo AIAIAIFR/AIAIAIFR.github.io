@@ -1,4 +1,4 @@
-html { background:#303030; color:white}
+html { background:#fff; color:#303030}
 body>div { height:100vh; display:flex; flex-direction:column; }
 .graphBox { margin:0.25em auto 0.75em; }
 #fr-graph { height:calc(100vw * 346 / 800); max-height:calc(100vh - 13.5em); max-width:100vw}
@@ -37,7 +37,7 @@ path.highlight { stroke-width:3.3px; }
 tr.highlight { box-shadow:inset 0 0 1.5em 0.2em; }
 td { color:initial; }
 
-.dBScaler { opacity:0.22; fill:white; }
+.dBScaler { opacity:0.22; fill:#303030; }
 .dBScaler circle,.dBScaler rect { cursor:move; }
 .dBScaler:hover,.dBScaler.active { opacity:1; }
 
