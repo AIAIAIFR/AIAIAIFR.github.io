@@ -63,10 +63,5 @@
     "name":   "Sennheiser",
     "phones": [ "HD25"
               ]
-  },
-  {
-    "name":   "Sony",
-    "phones": [ "XM4"
-              ]
-  },
+  }
 ]
