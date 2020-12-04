@@ -1,3 +1,4 @@
+
 Frequency	dB	Unweighted
 19.5	91.683
 19.8	91.604
