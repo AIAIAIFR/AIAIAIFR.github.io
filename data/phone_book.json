@@ -73,5 +73,10 @@
     "name":   "Bang & Olufsen",
     "phones": [ "H95"
               , "H4"]
+  },
+  {
+    "name":   "Microsoft",
+    "phones": [ "Surface"
+              ]
   }
 ]
